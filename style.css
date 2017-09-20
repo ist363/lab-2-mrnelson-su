@@ -1,0 +1,166 @@
+.page2 {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    direction: column;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.header {
+    height: 100px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #747474;
+}
+
+
+.big-blue {
+    display: flex;
+}
+
+.small-blue {
+    height: 200px;
+    margin: 10px;
+    background-color: #37B2D8;
+    width: 50%;
+}
+
+.big-red {
+    display: flex;
+}
+
+.small-red {
+    height: 200px;
+    margin: 10px;
+    background-color: #CF0C3D;
+    width: 25%;
+}
+
+.medium-red {
+    height: 200px;
+    margin: 10px;
+    background-color: #CF0C3D;
+    width: 50%;
+}
+
+.big-purp {
+    display: flex;
+}
+
+.medium-purp {
+    height: 200px;
+    margin: 10px;
+    background-color: #A50E91;
+    width: 50%;
+}
+
+.small-purp {
+    height: 200px;
+    margin: 10px;
+    background-color: #A50E91;
+    width: 25%;
+}
+
+.big-green {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medium-green {
+    height: 200px;
+    margin: 10px;
+    background-color: #0EA516;
+    width: 33%;
+}
+
+.big-gold {
+    display: flex;
+}
+
+.small-gold {
+    height: 200px;
+    margin: 10px;
+    background-color: #D2A242;
+    width: 25%;
+}
+
+.small-gold2 {
+    margin-left: auto;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #D2A242;
+    width: 25%;
+}
+
+.vertical-cont {
+    display: flex;
+    min-height: 500px;
+    margin: 10px;
+}
+
+.box1 {
+    display: flex;
+    min-height: 300px;
+    background-color: lightgrey;
+    width: 75%;
+    margin: 10px;
+    align-content: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.box2 {
+    display: flex;
+    min-height: 300px;
+    background-color: lightgrey;
+    width: 25%;
+    margin: 10px;
+    align-content: right;
+    align-items: right;
+    justify-content: right;
+}
+
+#body2 {
+    flex-direction: column, column-reverse;
+}
+
+.containpage3 {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brownflex {
+    display: flex;
+    background-color: brown;
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+}
+
+#body3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
